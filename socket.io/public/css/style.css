@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,14 +6,15 @@
 
 body {
   font: 13px Helvetica;
-  background-image : url("skulls.png");
+  background-image : url("patterns/gplaypattern.png");
 }
 
 form {
   background: rgba(0,0,0,0.5);
   padding: 0px; position:relative;
-  width: 30%;
+  width: 100%;
   margin:0 auto;
+  margin-bottom:100px;
 }
 
 form input {
@@ -33,7 +34,7 @@ form button {
 }
 
 #messages {
-  width:30%;
+  width:100%;
   list-style-type:none;
   margin:0 auto;
   padding:0px;
@@ -63,4 +64,9 @@ form button {
   font-family:Helvetica;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.w3-input{
+  background-color:white;
+  color:black;
 }

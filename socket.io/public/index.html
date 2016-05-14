@@ -5,43 +5,85 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   </head>
 
   <body>
     <!--NAVBAR-->
-    <ul class="w3-navbar w3-light-grey w3-border w3-large w3-container">
-    <li><a class="w3-green" href="#"><i class="fa fa-home w3-large"></i></a></li>
-    <li><a href="#"><i class="fa fa-search w3-large"></i></a></li>
-    <li><a href="#"><i class="fa fa-envelope w3-large"></i></a></li>
-    <li><a href="#"><i class="fa fa-globe w3-large"></i></a></li>
-    <li><a href="#"><i class="fa fa-sign-in w3-large"></i></a></li>
-    </ul>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">NOVA</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
     <!--GRID-->
      <div class="w3-row">
-        <div class="w3-col m3 w3-green w3-center"><p>m3</p>
+        <div class="w3-col m3 w3-white w3-center" style="padding:20px;text-align:justify;">
+        <div class="w3-card-4 "style="text-align:justify;">
           <!--chat_container-->
-          <div class="container_chat w3-container">
-            <div id="title">chat via socket.io</div>
-              <ul id="messages"></ul>
-              <div id="form_container">
-                <form action="">
-                  <input class="m" autocomplete="off" /><button>Send</button>
-                </form>
-              </div>
-          </div><!--end of chat-->
+          <iframe src="chat.io.html" width="100%" height="480" scrolling="no" class="iframe-class" frameborder="0">
+
+          </iframe>
         </div>
-        <div class="w3-col m6 w3-center" style="background:rgba(255,255,255,0.2)">
-          <div class="w3-card-4 w3-white" style="margin:10px;padding:30px;text-align:justify;">
-          <h1>  Lorem ipsum dolor</h1>
-            <p>Lorem ipsum dolor sit amet, vim at eligendi voluptua luptatum. Ne suas pericula intellegebat nec. Quo ad illud salutatus, mediocrem evertitur nam ea, nec ridens copiosae an. Civibus oportere qui at. Lorem saperet signiferumque mea ne. Ut postea suavitate cum.
+      </div>
+        <div class="w3-col m6 w3-center" style="padding:20px;">
+          <div class="w3-card-4 w3-white">
+            <header class="w3-container w3-light-grey">
+              <h1>Lorem ipsum dolor</h1>
+            </header>
+            <div class="w3-container" style="padding:30px;text-align:justify;">
+              <p >Lorem ipsum dolor sit amet, vim at eligendi voluptua luptatum. Ne suas pericula intellegebat nec. Quo ad illud salutatus, mediocrem evertitur nam ea, nec ridens copiosae an. Civibus oportere qui at. Lorem saperet signiferumque mea ne. Ut postea suavitate cum.
 Mel affert suavitate an, vel in falli debitis, has atqui essent an. Adhuc tation essent ad nam, stet esse habemus in vim, invidunt euripidis eam ea. Has libris similique an, an fierent vivendum gubergren mei. Mel justo reprimique te, vim eirmod appareat laboramus ex. Duo graecis copiosae principes an, ignota utamur ex mei.
 Enim habeo dolor ut usu, ius te noluisse tacimates repudiare, eam utinam dolores mediocrem et. Ad pri ferri doctus. At senserit indoctum evertitur pri. Eu ignota interesset vim, mei et mundi dictas docendi. Mei postea inermis ne. In deleniti quaestio perpetua per.
 Ne mea quas electram philosophia. Eu nibh eius eum, te mel utroque praesent. Mundi ornatus delicatissimi ad cum, ad duo posse dolorum singulis. Nisl minimum has ex. Eos an malis simul scripserit.
 Dico essent theophrastus ne usu, pri libris delectus cu. Adhuc illum delectus mel ei, cum putent audiam euripidis an. Vix nulla invenire ut, per an atqui ancillae. Stet tincidunt ut mel. Eu qui dicta cetero.</p>
+            </div>
           </div>
         </div>
-        <div class="w3-col m3 w3-red">
-          <div class="w3-card-4">
+        <div class="w3-col m3 w3-white"style="padding:20px;text-align:justify;">
+          <div class="w3-card-4 ">
             <header class="w3-container w3-light-grey">
               <h3>John Doe</h3>
             </header>
@@ -57,21 +99,10 @@ Dico essent theophrastus ne usu, pri libris delectus cu. Adhuc illum delectus me
       </div>
   </body>
 
-  <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
   <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   <script>
-      var socket = io();
-      $('form').submit(function(){
-        socket.emit('chat message', $('.m').val());
-        $('.m').val('');
-        return false;
-      });
-      socket.on('chat message', function(msg){
-        $('#messages').append($('<li>').text(msg));
-      });
-
-
      $(document).ready(function(){
         $('.dropdown-toggle').dropdown()
       });
